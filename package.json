@@ -1,0 +1,38 @@
+ {
+   "name": "qMemcached",
+   "version": "0.0.1",
+   "description": "Q Promises for memcached",
+   "main": "index.js",
+   "contributors": [{
+     "name": "Prashanth",
+     "email": "munichlinux@gmail.com"
+   }],
+   "scripts": {
+     "test": "mocha test/*",
+     "travis-cov": {
+       "threshold": 90
+     }
+   },
+   "dependencies": {
+     "memcached": "latest",
+     "q": "^1.0.1"
+   },
+   "devDependencies": {
+     "chai": "*",
+     "mocha": "*"
+   },
+   "repository": {
+     "type": "git",
+     "url": "https://github.com/munichlinux/qMemcached"
+   },
+   "keywords": [
+     "memcached",
+     "promises",
+     "promised memcached"
+   ],
+   "engines": {
+     "node": ">= 0.8.0"
+   },
+   "author": "Prashanth <munichlinux@gmail.com>",
+   "license": "MIT"
+ }
