@@ -1,5 +1,5 @@
  {
-   "name": "q-memcached",
+   "name": "memcache-promise",
    "version": "0.0.1",
    "description": "Q Promises for memcached",
    "main": "index.js",
@@ -23,7 +23,7 @@
    },
    "repository": {
      "type": "git",
-     "url": "https://github.com/munichlinux/q-memcached"
+     "url": "https://github.com/munichlinux/memcache-promise"
    },
    "keywords": [
      "memcached",
